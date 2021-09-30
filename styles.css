@@ -1,2 +1,21 @@
-H1  {color-red
-}
+h1 {
+    color: blueviolet;
+    text-align: center;
+  }
+
+  body {
+    background-color: goldenrod;
+  }
+  
+  div {
+    background-color: blueviolet;
+    color: black;
+    width: 320px;
+    padding: 10px;
+    border: 10px solid rgb(194, 61, 24);
+    margin: 0;
+  }
+
+  p.small {
+    font-variant: small-caps;
+  }
