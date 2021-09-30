@@ -9,10 +9,10 @@ h1 {
     color: white ;
   }
   
-  div {
+  .jaahas {
     width: 100px;
     height: 100px;
-    border: 2px;
+    border: dotted 2px;
 
   }
 
@@ -20,4 +20,13 @@ h1 {
         font-size: 12px;
         color: green;
     
+ }
+
+ .a   {
+     list-style-type: lower-alpha;
+    
+ }
+
+.b   {
+     list-style-type: square;
  }
