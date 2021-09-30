@@ -4,7 +4,7 @@ h1 {
   }
 
   body {
-    background-color: goldenrod;
+    background-color:black ;
   }
   
   div {
@@ -16,6 +16,4 @@ h1 {
     margin: 0;
   }
 
-  p.small {
-    font-variant: small-caps;
-  }
+ 
