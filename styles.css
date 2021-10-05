@@ -1,5 +1,5 @@
 H1 {
-    color: white;
+    color: white);
     text-align: center;
     font-size: 20px;
   }
@@ -30,3 +30,5 @@ H1 {
 .b   {
      list-style-type: square;
  }
+
+ aimg{border-style: dotted 5px;}
