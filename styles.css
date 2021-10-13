@@ -73,3 +73,21 @@ p.round1  {
  .neljä {
  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Norway.png");
  }
+ 
+.header {
+  background-color: pink;
+}
+
+.nav  {
+  background-color: blue;
+}
+
+.section  {
+  background-color: green;
+}
+
+body {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  }  
