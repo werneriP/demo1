@@ -8,7 +8,6 @@ H1 {
   body {
     background-color:black;
     color: white;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Norway.png");
   }
   
   .jaahas {
@@ -43,7 +42,6 @@ H1 {
     width: 250px;
     font-size: 15px;
     text-align: center;
-
 }
 
 .kaksi  {
@@ -72,4 +70,6 @@ p.round1  {
       background-color: darkblue;
   }
 
- 
+ .neljä {
+ background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Norway.png");
+ }
