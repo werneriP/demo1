@@ -150,10 +150,13 @@ main  {
 
 
 a   {
-  text-decoration: none;
+ text-decoration: none;
+  color: white;
 }
 
 .huh    {
   list-style: none;
 }
 
+a:hover {
+  background-color:red;
