@@ -6,7 +6,7 @@ H1 {
   }
 
   body {
-    background-color:black;
+    background-color: black;
     color: white;
   }
   
@@ -76,19 +76,50 @@ p.round1  {
  
 
 
-.header {
+.headeri {
   background-color: blue;
 }
 
-.nav  {
-  background-color: red;
+.navi {
+ background-color: red;
 }
 
-.section  {
+.sectioni  {
   background-color: green;
 }
+
 body {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   }  
+
+.pop   {
+font-size: 15px;
+color: red;
+ }
+
+.otsikko  {
+  font-size: 30px;
+  color: firebrick;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 5px white;
+}
+
+.joo  {
+  color: red;
+}
+
+nav   {
+ float: left;
+ background-color: yellow;
+ width: 20%;
+ height: 600px;
+}
+
+section   {
+  background-color: peachpuff;
+  width: 80%;
+  height: 600px;
+  float: left;
+}
