@@ -75,20 +75,7 @@ p.round1  {
  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Norway.png");
  }
  
-
-
-#headeri1 {
-  background-color: blue;
-  width: 100%;
-  height: 30px;
-}
-
-#sectioni1  {
-  background-color: green;
-  width: 100%;
-}
-
-body {
+ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -169,6 +156,17 @@ width: 100%;
 height: 30px;
 padding: 15px;
 text-align: center;
+}
+
+#headeri1 {
+  background-color: blue;
+  width: 100%;
+  height: 30px;
+}
+
+#sectioni1  {
+  background-color: green;
+  width: 100%;
 }
 
 .joopajoo  {
