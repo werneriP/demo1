@@ -1,8 +1,7 @@
-H1 {
-    color: white);
+H1  {
+    color: white;
     text-align: center;
     font-size: 20px;
-  
   }
 
   body {
@@ -33,7 +32,9 @@ H1 {
      color: black;
  }
 
- aimg{border-style: dotted 5px;}
+ aimg  {border-style: dotted;
+border: 5px;
+}
 
 .yksi {
     border: dotted 2px;
@@ -144,7 +145,7 @@ main  {
   background-color: darkorange;
   text-align: center;
   font-size:20px;
-  padding-block: 10px;;
+  padding-block: 10px;
 }
 
 
