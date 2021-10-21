@@ -71,84 +71,35 @@ p.round1  {
       background-color: darkblue;
   }
 
- .neljä {
- background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Norway.png");
- }
- 
- body {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  }  
-
-.pop   {
-font-size: 15px;
-color: red;
-padding-left: 20px;
-padding-right: 20px;
+.neljä {
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Norway.png");
 }
+ 
+body {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}  
 
 .otsikko  {
-  font-size: 30px;
-  color: firebrick;
-  font-variant: small-caps;
-  text-shadow: 2px 2px 5px white;
-}
-
-.joo  {
-  color: red;
-}
-
-nav  {
- float: left;
- background-color: burlywood;
- width: 20%;
- height: 600px;
-}
-
-section   {
-  background-color: peachpuff;
-  width: 80%;
-  height: 600px;
-  float: left;
+font-size: 30px;
+color: firebrick;
+font-variant: small-caps;
+text-shadow: 2px 2px 5px white;
 }
 
 h2  {
-  padding-left: 20px;
+padding-left: 20px;
 }
 
 h3  {
-  padding-left: 20px;
+padding-left: 20px;
 }
-
-.jeb  {
-  font-size: 20px;
-  color: black;
-  text-align: center;
-}
-
-main  {
-  background-color: darkorange;
-  text-align: center;
-  font-size:20px;
-  padding-block: 10px;
-}
-
-
 
 a   {
- text-decoration: none;
-  color: white;
+text-decoration: none;
+color: white;
 }
-
-.huh    {
-  list-style: none;
-}
-
-a:hover {
-  background-color:red;
-}
-
 
 #navi1   {
 background-color: red;
@@ -159,9 +110,8 @@ text-align: center;
 }
 
 #headeri1 {
-  background-color: blue;
-  width: 100%;
-  height: 30px;
+background-color: yellow;
+width: 100%; height: 30px;
 }
 
 #sectioni1  {
@@ -177,5 +127,51 @@ margin-right: auto;
 }  
 
 .höh  {
-  color: white;
+color: white;
+}
+
+nav  {
+float: left;
+background-color: burlywood;
+ width: 20%;
+height: 600px;
+}
+
+section   {
+background-color: peachpuff;
+ width: 80%;
+height: 600px;
+float: left;
+}
+
+main  {
+background-color: darkorange;
+text-align: center;
+font-size:20px;
+padding-block: 10px;
+}
+
+a:hover {
+background-color:red;
+}
+
+.pop   {
+font-size: 15px;
+color: red;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.jeb  {
+font-size: 20px;
+color: black;
+text-align: center;
+}
+
+.huh    {
+list-style: none;
+}
+
+.joo  {
+color: red;
 }
