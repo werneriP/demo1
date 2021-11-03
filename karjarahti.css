@@ -13,6 +13,10 @@ padding-left: 50px;
 padding-right: 250px;
 }
 
+.nimet  {
+
+}
+
 header{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -59,5 +63,5 @@ ul {
   }
   
   .active {
-   /* background-color: #04AA6D;*/
+    background-color: #04AA6D;
   }
