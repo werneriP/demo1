@@ -8,13 +8,18 @@ padding-left: 50px;
 font-size: 30px;
 }
 
+body  {
+background-color: grey;
+}
+
 p{
 padding-left: 50px;
 padding-right: 250px;
 }
 
-.nimet  {
-
+p.b {
+  word-spacing: 2.9cm;
+  padding-left: 100px;
 }
 
 header{
@@ -23,45 +28,39 @@ header{
     background-color: grey;
 }
 
-main{
-    
+main{ 
+  background-color: grey;  
 }
 
+
+
 footer  {
-background-color: black;
+background-color:#333;
 color: white;
+text-align: right;
 }
 
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-    border-right:2px solid #bbb;
-  }
-  
-    li:last-child {
-    border-right: none;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 113.5px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111
+}
