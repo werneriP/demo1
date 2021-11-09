@@ -15,6 +15,14 @@ background-color: grey;
 p{
 padding-left: 50px;
 padding-right: 250px;
+float: left;
+}
+
+.i   {
+padding-top: 30px;
+padding-left: 50px;
+max-width: 40%;
+max-height: 30%;
 }
 
 p.b {
@@ -34,12 +42,9 @@ main{
 
 
 
-footer  {
-background-color:#333;
-color: white;
-text-align: right;
+iframe    {
+float: right;
 }
-
 
 ul {
   list-style-type: none;
