@@ -1,8 +1,15 @@
-table, td, th{
-border-style: dotted 2px;
-} 
-<style>
-table, th, td {
-    border: 1px solid black;
-  }
-  </style>
+main  {
+background-color: silver;
+color: blue;
+
+}
+
+table   {
+background-color: yellow;
+text-align: center;
+}
+
+
+body  {
+background-color: wheat;
+}

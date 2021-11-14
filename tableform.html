@@ -10,7 +10,7 @@
         table,
         th,
         td {
-            border: 2px solid red;
+            border: 2px solid blue;
         }
     </style>
 
@@ -18,49 +18,51 @@
 </head>
 
 <body>
-
-    <table>
-        <caption>Tietoja</caption>
-        <tr>
-            <th colspan="2">Nimi ja syntymävuosi</th>
-            <th>Pituus (cm)</th>
-            <th>Lempi väri</th>
-        </tr>
-        <tr>
-            <td>Mika</td>
-            <td>1990</td>
-            <td>180cm</td>
-            <td>Punainen</td>
-        </tr>
-        <tr>
-            <td>Markku</td>
-            <td>1989</td>
-            <td>167cm</td>
-            <td>Vihreä</td>
-        </tr>
-        <tr>
-            <td>Juhani</td>
-            <td>1985</td>
-            <td>191cm</td>
-            <td>Valkoinen</td>
-        </tr>
-        <tr>
-            <td>Pirjo</td>
-            <td>1976</td>
-            <td>158cm</td>
-            <td>Keltainen</td>
-        </tr>
-        <tr>
-            <td>Marja-Leena</td>
-            <td>1967</td>
-            <td>163cm</td>
-            <td>Musta</td>
-        </tr>
-    </table>
+    <nav>
+        <table>
+            <caption>Tietoja</caption>
+            <tr>
+                <th colspan="2">Nimi ja syntymävuosi</th>
+                <th>Pituus (cm)</th>
+                <th>Lempi väri</th>
+            </tr>
+            <tr>
+                <td>Mika</td>
+                <td>1990</td>
+                <td>180cm</td>
+                <td>Punainen</td>
+            </tr>
+            <tr>
+                <td>Markku</td>
+                <td>1989</td>
+                <td>167cm</td>
+                <td>Vihreä</td>
+            </tr>
+            <tr>
+                <td>Juhani</td>
+                <td>1985</td>
+                <td>191cm</td>
+                <td>Valkoinen</td>
+            </tr>
+            <tr>
+                <td>Pirjo</td>
+                <td>1976</td>
+                <td>158cm</td>
+                <td>Keltainen</td>
+            </tr>
+            <tr>
+                <td>Marja-Leena</td>
+                <td>1967</td>
+                <td>163cm</td>
+                <td>Musta</td>
+            </tr>
+        </table>
+    </nav>
 
     <main>
 
-      <p><form action="/action_page.php"></form>
+        <p>
+        <form action="/action_page.php"></form>
         <label for="fname">Etunimi:</label><br>
         <input type="text" id="fname" name="fname" required><br>
         <label for="lname">Sukunimi:</label><br>
@@ -87,7 +89,7 @@
             </select>
         </p>
 
-        <input type="submit" value="Luo uusi käyttäjä">
+        <input type="submit" name="submit" value="Luo uusi käyttäjä">
         </form>
 
     </main>
