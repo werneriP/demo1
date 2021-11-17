@@ -1,0 +1,36 @@
+.pöö    {
+box-shadow: 5px 10px lightgreen;
+text-align: center;
+background-color: black;
+text-shadow: 2px 2px green;
+color: lightgreen;
+}
+
+.joo    {
+text-shadow: 2px 2px lightgreen;
+max-width: 75%;
+}
+
+main    {
+padding-left: 20px;
+background-image: url("https://images.unsplash.com/photo-1506815444479-bfdb1e96c566?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMTQ3NjM2fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+background-size: cover;
+}
+
+a    {
+text-decoration: none;
+color: Black;
+transition: width 1s;
+}
+
+a:hover {
+color: lightgreen;
+transition: 1s;
+}
+
+@media only screen and (max-width: 800px) {
+body {
+background-color: lightblue;
+color: white;
+}
+}
