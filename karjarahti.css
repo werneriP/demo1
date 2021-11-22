@@ -1,7 +1,7 @@
 h1  { 
 text-align: center;
 font-style:italic;
-text-shadow: 2px 2px white;
+text-shadow: 3px 3px dimgray;
 }
 h2  {
 padding-top: 30px;
@@ -58,8 +58,7 @@ max-height: 30%;
 header{
 padding-top: 10px;
 padding-bottom: 10px;
-background-color: darkgrey; 
-box-shadow: 5px 10px blue;
+background-color: white; 
 }
 
 main{ 
