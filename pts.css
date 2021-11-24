@@ -1,0 +1,82 @@
+h1  { 
+text-align: center;
+font-style:italic;
+text-shadow: 3px 2px dimgray;
+}
+
+header{
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: white; 
+}
+
+nav {
+text-align: center;
+padding-top: 50px;
+background-color: lightgray;
+}
+
+main{ 
+background-color: darkgray;  
+width: 80%;
+float: left;
+padding-bottom: 15px;
+}
+
+content   {
+background-color: darkgray;  
+width: 80%;
+float: left;
+padding-bottom: 15px;
+}
+
+article {
+background-color: darkgray;  
+width: 80%;
+float: left;
+padding-bottom: 15px;
+}
+
+body  {
+background-image: url("https://i.pinimg.com/originals/e4/03/74/e40374e9cb805db9d175c3289ddf3cbb.jpg");
+height: 100%;
+}
+
+p   {
+padding-left: 50px;
+}
+
+h2  {
+padding-top: 30px;
+padding-left: 50px;
+font-size: 30px;
+}
+a    {
+text-decoration: none;
+color: Black;
+display: inline-block;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 20px;
+}
+
+.pluokka        {
+padding-left: 50px;
+padding-right: 50px;
+}
+  
+section {
+float: left;
+width: 10%;
+height: 1000px;
+}
+
+footer  {
+float: left;
+width: 10%;
+}
+    
+a:hover {
+color: white;
+transition: 1s;
+} 
