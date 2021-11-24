@@ -84,3 +84,9 @@ a    {
     transition: 1s;
     }  
   
+@media only screen and (max-width: 800px) {
+body {
+background-image: url("https://i.pinimg.com/originals/e4/03/74/e40374e9cb805db9d175c3289ddf3cbb.jpg");
+color: black;
+ }
+ }
