@@ -10,7 +10,8 @@ font-size: 30px;
 }
 
 body  {
-background-image: url("https://i.pinimg.com/originals/e4/03/74/e40374e9cb805db9d175c3289ddf3cbb.jpg");
+background-image: url("https://i.etsystatic.com/12668519/r/il/5c8d41/3151719661/il_fullxfull.3151719661_ttby.jpg");
+background-size: cover;
 }
 
 nav {
@@ -35,10 +36,8 @@ text-align: center;
 .i   {
 padding-top: 30px;
 padding-left: 50px;
-max-width: 40%;
-max-height: 30%;
+float: left;
 }
-
 
 header{
 padding-top: 10px;
@@ -47,15 +46,36 @@ background-color: white;
 }
 
 .headerkaksi    {
-  padding-bottom: 50px;
+  background-image: url("rekka.jpg");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headerkolme    {
+  background-image: url("uusiauto.jpg");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headerneljä    {
   background-image: url("https://b10m.kuvat.fi/kuvat/2018/Tavaraliikenne/Elokuu/IMG_8300.JPG?img=img2048");
   background-size: 75%;
   background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
 }
 
+.headerviisi    {
+  background-image: url("https://www.skal.fi/sites/default/files/styles/peruskoko/public/ekuljetusyrittajan_kuvat/marko_pudas_waltteri_pudas.jpg?itok=lkisLLD6");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 main{ 
-  background-color: lightblue;  
+  background-color: lightcyan;  
   padding-bottom: 20px;
   padding-top: 50px;
 }
@@ -104,3 +124,5 @@ color: black;
     padding-left: 50px;
     padding-right: 50px;
     }
+
+    
