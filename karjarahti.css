@@ -19,17 +19,6 @@ padding-top: 50px;
 background-color: lightgray;
 }
 
-section {
-float: left;
-width: 10%;
-height: 681px;
-}
-
-footer  {
-  float: left;
-  width: 10%;
-}
-
 
 p   {
 padding-left: 50px;
@@ -58,8 +47,6 @@ background-color: white;
 
 main{ 
   background-color: darkgray;  
-  width: 80%;
-  float: left;
   padding-bottom: 15px;
 }
 
@@ -78,15 +65,34 @@ a    {
   }
 
   
-  
   a:hover {
     color: white;
     transition: 1s;
     }  
   
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 body {
 background-image: url("https://i.pinimg.com/originals/e4/03/74/e40374e9cb805db9d175c3289ddf3cbb.jpg");
 color: black;
  }
  }
+
+ content   {
+  background-color: darkgray;  
+  float: left;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+  
+
+  .pluokka        {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+.testi    {
+padding-top: 100px;
+}
