@@ -22,6 +22,7 @@ background-color: lightgray;
 
 p   {
 padding-left: 50px;
+padding-right: 50px;
 }
 
 .kuvat    {
@@ -45,9 +46,18 @@ padding-bottom: 10px;
 background-color: white; 
 }
 
+.headerkaksi    {
+  padding-bottom: 50px;
+  background-image: url("https://b10m.kuvat.fi/kuvat/2018/Tavaraliikenne/Elokuu/IMG_8300.JPG?img=img2048");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
 main{ 
-  background-color: darkgray;  
-  padding-bottom: 15px;
+  background-color: lightblue;  
+  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
 
@@ -75,24 +85,22 @@ body {
 background-image: url("https://i.pinimg.com/originals/e4/03/74/e40374e9cb805db9d175c3289ddf3cbb.jpg");
 color: black;
  }
+ content  {
+  float: none;
+ }
  }
 
  content   {
-  background-color: darkgray;  
   float: left;
   padding-bottom: 50px;
   padding-top: 50px;
-  text-align: center;
   padding-left: 50px;
   padding-right: 50px;
   }
   
 
+
   .pluokka        {
     padding-left: 50px;
     padding-right: 50px;
     }
-
-.testi    {
-padding-top: 100px;
-}
