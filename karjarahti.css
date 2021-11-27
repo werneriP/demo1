@@ -10,8 +10,8 @@ font-size: 30px;
 }
 
 body  {
-background-image: url("https://i.etsystatic.com/12668519/r/il/5c8d41/3151719661/il_fullxfull.3151719661_ttby.jpg");
-background-size: cover;
+/*background-image: url("https://i.etsystatic.com/12668519/r/il/5c8d41/3151719661/il_fullxfull.3151719661_ttby.jpg");
+background-size: cover;*/
 }
 
 nav {
@@ -46,36 +46,40 @@ background-color: white;
 }
 
 .headerkaksi    {
-  background-image: url("rekka.jpg");
-  background-size: 75%;
+  background-image: url("kolme\ autoa.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  height: 400px;
 }
 
 .headerkolme    {
-  background-image: url("uusiauto.jpg");
-  background-size: 75%;
+  background-image: url("vasen.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  height: 400px;
 }
 
 .headerneljä    {
-  background-image: url("https://b10m.kuvat.fi/kuvat/2018/Tavaraliikenne/Elokuu/IMG_8300.JPG?img=img2048");
-  background-size: 75%;
+  background-image: url("töissä.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  height: 400px;
 }
 
 .headerviisi    {
   background-image: url("https://www.skal.fi/sites/default/files/styles/peruskoko/public/ekuljetusyrittajan_kuvat/marko_pudas_waltteri_pudas.jpg?itok=lkisLLD6");
-  background-size: 75%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  height: 400px;
 }
 
 
 main{ 
-  background-color: lightcyan;  
+  background-color: #ADDFFF;  
   padding-bottom: 20px;
   padding-top: 50px;
 }
@@ -101,8 +105,9 @@ a    {
     }  
   
 @media only screen and (max-width: 600px) {
-body {
-background-image: url("https://i.pinimg.com/originals/e4/03/74/e40374e9cb805db9d175c3289ddf3cbb.jpg");
+footer {
+background-image: url("https://i.etsystatic.com/12668519/r/il/5c8d41/3151719661/il_fullxfull.3151719661_ttby.jpg");
+background-size: cover;
 color: black;
  }
  content  {
@@ -125,4 +130,22 @@ color: black;
     padding-right: 50px;
     }
 
-    
+    footer  {
+      background-image: url("https://www.whatspaper.com/wp-content/uploads/2021/08/hd-cow-print-wallpaper-whatspaper-8.jpg");
+      background-size: cover;
+    }
+
+  br  {
+  padding-top: 50px;
+  }
+
+.teksti   {
+padding-top: 100px;
+text-align: center;
+}
+
+.tekstikaksi    {
+  padding-top: 75px;
+  text-align: center;
+  float: center;
+}
