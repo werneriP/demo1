@@ -50,15 +50,15 @@ background-color: white;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 500px;
 }
 
 .headerkolme    {
-  background-image: url("vasen.jpg");
+  background-image: url("näyttely.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 500px;
 }
 
 .headerneljä    {
@@ -66,15 +66,15 @@ background-color: white;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 500px;
 }
 
 .headerviisi    {
-  background-image: url("https://www.skal.fi/sites/default/files/styles/peruskoko/public/ekuljetusyrittajan_kuvat/marko_pudas_waltteri_pudas.jpg?itok=lkisLLD6");
+  background-image: url("kolme\ autoa.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 500px;
 }
 
 
@@ -106,12 +106,16 @@ a    {
   
 @media only screen and (max-width: 600px) {
 footer {
-background-image: url("https://i.etsystatic.com/12668519/r/il/5c8d41/3151719661/il_fullxfull.3151719661_ttby.jpg");
+background-image: url("https://wallpapercave.com/wp/wp5187551.png");
 background-size: cover;
 color: black;
  }
  content  {
   float: none;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
  }
  }
 
@@ -125,15 +129,14 @@ color: black;
   
 
 
-  .pluokka        {
-    padding-left: 50px;
-    padding-right: 50px;
-    }
+.pluokka      {
+padding-left: 50px;
+padding-right: 50px;
+}
 
-    footer  {
-      background-image: url("https://www.whatspaper.com/wp-content/uploads/2021/08/hd-cow-print-wallpaper-whatspaper-8.jpg");
-      background-size: cover;
-    }
+footer  {
+background-image: url("https://wallpapercave.com/wp/wp5187551.png");
+}
 
   br  {
   padding-top: 50px;
