@@ -1,7 +1,7 @@
 h1  { 
 text-align: center;
 font-style:italic;
-text-shadow: 3px 2px dimgray;
+text-shadow: 2px 0px dimgray;
 }
 h2  {
 padding-top: 30px;
@@ -12,6 +12,7 @@ font-size: 30px;
 h3  {
 text-align: center;
 box-shadow: 0px 10px white;
+text-shadow: 2px 0px white;
 }
 
 
@@ -39,6 +40,7 @@ a  {
 p   {
 padding-left: 50px;
 padding-right: 50px;
+font-size: 17px;
 }
 
 .kuvat    {
@@ -139,13 +141,14 @@ padding-right: 50px;
 .teksti   {
 padding-top: 150px;
 text-align: center;
-font-size: 20px;
+font-size: 17px;
 }
 
 .tekstikaksi    {
-  padding-top: 25px;
+  padding-top: ;
   text-align: center;
   float: center;
+  font-size: 17px;
 }
 
 @media only screen and (max-width: 600px) {
