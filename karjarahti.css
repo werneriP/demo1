@@ -110,6 +110,11 @@ footer  {
     padding-top: 50px;
     }
 
+footer    {
+  background-color: #ADDFFF;  
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
 iframe    {
 float: right;
 width: 550px;
