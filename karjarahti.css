@@ -3,6 +3,7 @@ text-align: center;
 font-style:italic;
 text-shadow: 2px 0px dimgray;
 }
+
 h2  {
 padding-top: 30px;
 padding-left: 50px;
@@ -15,27 +16,24 @@ box-shadow: 0px 10px white;
 text-shadow: 2px 0px white;
 }
 
-
 nav {
 text-align: center;
 background-color: #787878;
 }
 
 a  {
-  text-decoration: none;
-  color: Black;
-  display:block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 20px;
-  }
+text-decoration: none;
+color: Black;
+display:block;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 20px;
+}
 
-  
-  a:hover {
-    color: white;
-    transition: 1s;
-    } 
-
+a:hover {
+color: white;
+transition: 1s;
+} 
 
 p   {
 padding-left: 50px;
@@ -63,59 +61,59 @@ background-color: white;
 }
 
 .headerkaksi    {
-  background-image: url("kolme\ autoa.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
+background-image: url("kolme\ autoa.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+height: 500px;
 }
 
 .headerkolme    {
-  background-image: url("näyttely.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
+background-image: url("näyttely.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+height: 500px;
 }
 
 .headerneljä    {
-  background-image: url("töissä.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
+background-image: url("töissä.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+height: 500px;
 }
 
 .headerviisi    {
-  background-image: url("kolme\ autoa.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
+background-image: url("kolme\ autoa.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+height: 500px;
 }
-
 
 main{ 
-  background-image: url("https://wallpapercave.com/wp/wp5187551.png");
+background-image: url("https://wallpapercave.com/wp/wp5187551.png");
 }
-footer  { 
-  float: left;
-  padding-bottom: 50px;
-  padding-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  }
 
-  section   {
-    background-color: #ADDFFF;  
-    padding-bottom: 20px;
-    padding-top: 50px;
-    }
+footer  { 
+float: left;
+padding-bottom: 50px;
+padding-top: 50px;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+section   {
+background-color: #ADDFFF;  
+padding-bottom: 20px;
+padding-top: 50px;
+}
 
 footer    {
-  background-color: #ADDFFF;  
-  padding-bottom: 20px;
-  padding-top: 50px;
+background-color: #ADDFFF;  
+padding-bottom: 20px;
+padding-top: 50px;
 }
 iframe    {
 float: right;
@@ -125,18 +123,14 @@ border: 0px;
 padding-top: 30px;
 }
   
-
-
 .pluokka      {
 padding-left: 50px;
 padding-right: 50px;
 }
 
-
-
-  br  {
-  padding-top: 50px;
-  }
+br  {
+padding-top: 50px;
+}
 
 .teksti   {
 padding-top: 150px;
@@ -145,10 +139,8 @@ font-size: 17px;
 }
 
 .tekstikaksi    {
-  padding-top: ;
-  text-align: center;
-  float: center;
-  font-size: 17px;
+text-align: center;
+font-size: 17px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -156,7 +148,6 @@ main {
 background-image: url("https://wallpapercave.com/wp/wp5187551.png"); 
 color: black;
 }
-
 
 nav {
 text-align: center;
