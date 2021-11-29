@@ -94,11 +94,13 @@ background-color: white;
 
 
 main{ 
+  background-image: url("https://wallpapercave.com/wp/wp5187551.png");
+}
+footer  { 
   background-color: #ADDFFF;  
   padding-bottom: 20px;
   padding-top: 50px;
-}
-
+  }
 
 iframe    {
 float: right;
@@ -124,9 +126,7 @@ padding-left: 50px;
 padding-right: 50px;
 }
 
-footer  {
-background-image: url("https://wallpapercave.com/wp/wp5187551.png");
-}
+
 
   br  {
   padding-top: 50px;
@@ -148,7 +148,7 @@ text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-footer {
+main {
 background-image: url("https://wallpapercave.com/wp/wp5187551.png"); 
 color: black;
 }
